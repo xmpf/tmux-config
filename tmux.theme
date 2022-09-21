@@ -1,0 +1,30 @@
+# Status position
+set-option -g status-position bottom
+
+# Status update interval
+set-option -g status-interval 5
+
+# Basic status bar colors
+set-option -g status-style bg=default,fg=white
+
+# Left side of status bar
+set-option -g status-left-length 40
+set-option -g status-left " #S 🔀 "
+
+# Right side of status bar
+set-option -g status-right ""
+
+# Window status
+
+set-option -g window-status-format "#[fg=white,bg=#202020] #I #[fg=white,bg=#363636] #W "
+set-option -g window-status-current-format "#[fg=black,bg=#3060a0] #I #[fg=black,bg=#3080c0] #W "
+set-option -g window-status-separator " "
+set-option -g status-justify left
+
+# Pane border
+set-option -g pane-border-style bg=default,fg=white
+set-option -g pane-active-border-style bg=default,fg=white
+
+# Pane number indicator
+set-option -g display-panes-colour black
+set-option -g display-panes-active-colour white
